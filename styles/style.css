@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Oswald:wght@200..700&family=Qwigley&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* default codes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.primary-font{
+    font-family: "Oswald", sans-serif;
+}
+.secondary-font{
+    font-family: "Qwigley", cursive;
+}
+/* default codes */
+
+/* header css */
+
+.header{
+    
+}
+
+/* header css */
