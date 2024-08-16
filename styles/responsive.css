@@ -1,0 +1,43 @@
+@media screen and (max-width: 550px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-bar i {
+    display: block;
+    color: #fff;
+  }
+  .navbar {
+    padding: 10px;
+    width: 100%;
+  }
+  .navbar img {
+    width: 70px;
+  }
+  .nav-btn button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .header-container {
+    height: 320px;
+  }
+  .banner{
+    margin-top: 2rem;
+  }
+  .banner-para {
+    font-size: 2rem;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  .banner-content {
+    font-size: 20px;
+  }
+  .banner-subtitle img {
+    width: 60px;
+  }
+  .banner-btn button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

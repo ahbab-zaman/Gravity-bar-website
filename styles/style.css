@@ -19,6 +19,10 @@
     width: 90%;
     margin: 10px auto;
 }
+.sub-container{
+    width: 85%;
+    margin: 1rem auto;
+}
 .flexbox{
     display: flex;
 }
@@ -28,6 +32,11 @@
     border: none;
     background-color: #C9529A;
     border-radius: 5px;
+}
+.common-description{
+    font-size: 15px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
 }
 body{
     /* background-color: #1E1E1E; */
@@ -70,6 +79,9 @@ body{
     border: 1px solid #C9529A;
     border-radius: 5px;
     color: #fff;
+}
+.menu-bar i{
+    display: none;
 }
 .banner{
     flex-direction: column;
