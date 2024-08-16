@@ -1,4 +1,8 @@
 @media screen and (max-width: 550px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
   .nav-links {
     display: none;
   }
@@ -23,6 +27,7 @@
   }
   .banner{
     margin-top: 2rem;
+    padding: 10px;
   }
   .banner-para {
     font-size: 2rem;
@@ -43,9 +48,11 @@
   .about-us{
     flex-direction: column;
     gap: 1rem;
+    margin-top: 1rem;
   }
   .about-us-contents{
     width: 100%;
+    padding: 12px;
   }
   .about-image {
     width: 100%;
@@ -66,15 +73,47 @@
     flex-direction: column;
     gap: 1rem;
 }
-.about-item-content{
-    width: 80px;
-}
 .about-satelite img{
     width: 75px;
 }
 .about-satelite{
     position: absolute;
-    bottom: -90px;
+    bottom: 8px;
     right: 10px;
+}
+.events{
+    margin-top: 1rem;
+    flex-direction: column-reverse;
+}
+.events-content,
+.events-image{
+    width: 100%;
+}
+.events-content{
+    padding: 12px;
+}
+.circle{
+    width: 20px;
+}
+.leaf{
+    width: 60px;
+}
+.event-para{
+    font-size: 2rem;
+}
+.event-title{
+    font-size: 2.5rem;
+}
+.star-link{
+    width: 15px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.event-rocket{
+    bottom: 0%;
+    right: 5%;
+}
+.event-rocket img{
+    width: 40px;
 }
 }

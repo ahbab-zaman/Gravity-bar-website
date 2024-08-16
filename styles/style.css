@@ -17,7 +17,7 @@
 }
 .container{
     width: 90%;
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 .sub-container{
     width: 85%;
@@ -109,7 +109,7 @@ body{
 }
 /* header css */
 
-/* about-us section starts here */
+/* about-us css */
 
 .about-us{
     gap: 2rem;
@@ -162,4 +162,74 @@ body{
     width: 100px;
 }
 
-/* about-us section ends here */
+/* about-us css */
+
+/* events css */
+
+.events{
+    gap: 2rem;
+}
+.events-content{
+    width: 50%;
+    position: relative;
+}
+.event-art {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.circle{
+    width: 30px;
+}
+.leaf{
+    width: 80px;
+}
+.event-para{
+    font-family: "Qwigley", cursive;
+    font-size: 2.5rem;
+    color: #479A9F;
+}
+.event-title{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.events-btn{
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #C9529A;
+    padding: 10px 14px;
+    width: 170px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.events-btn i{
+    color: #fff;
+}
+.events-btn button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+.star-link{
+    width: 20px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.event-rocket{
+    position: absolute;
+    bottom: 8%;
+    right: 40%;
+}
+.event-rocket img{
+    width: 70px;
+}
+.events-image{
+    width: 50%;
+}
+.events-image img{
+    width: 100%;
+}
+
+/* events css */
