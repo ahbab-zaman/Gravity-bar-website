@@ -39,7 +39,7 @@
     font-family: "Oswald", sans-serif;
 }
 body{
-    /* background-color: #1E1E1E; */
+    background-color: #1E1E1E;
 }
 /* default codes */
 
@@ -108,3 +108,58 @@ body{
     margin-left: 7.5rem;
 }
 /* header css */
+
+/* about-us section starts here */
+
+.about-us{
+    gap: 2rem;
+    position: relative;
+}
+.about-image{
+    width: 50%;
+}
+.about-us-contents{
+    width: 50%;
+}
+.about-image img{
+    width: 100%;
+}
+.about-satelite{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+.star img{
+    margin-bottom: 2rem;
+}
+.about-para{
+    font-family: "Qwigley", cursive;
+    font-size: 2.5rem;
+    color: #479A9F;
+}
+.about-title{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.about-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.about-items{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+.about-item1{
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.about-item-content{
+    color: #fff;
+}
+.about-satelite img{
+    width: 100px;
+}
+
+/* about-us section ends here */
