@@ -116,4 +116,49 @@
 .event-rocket img{
     width: 40px;
 }
+.seats-calendar{
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.seats-title{
+  font-size: 25px;
+}
+.seats-calendar button{
+  width: 50%;
+  margin: 10px auto;
+}
+.gravity-images{
+  width: 90%;
+  margin: 1.5rem auto;
+  margin-bottom: 0;
+  grid-template-areas: 'img1' 'img2' 'img3' 'img4';
+}
+.gravity-img1 img{
+  height: 400px;
+}
+.gravity-img2 img{
+  height: 400px;
+}
+.gravity-img3 img{
+  height: 400px;
+}
+.gravity-img4 img{
+  height: 400px;
+}
+.service{
+  background-size: contain;
+}
+.service-container{
+  padding-top: 2rem;
+}
+.service-list{
+  font-size: 12px;
+  padding: 10px;
+  gap: 12px;
+  text-align: justify;
+}
+.service-title{
+  font-size: 2rem;
+}
 }

@@ -233,3 +233,148 @@ body{
 }
 
 /* events css */
+
+/* seats css */
+
+.seats{
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.seats-subtitle{
+    font-family: "Qwigley", cursive;
+    color: #479A9F;
+    font-size: 24px;
+}
+.seats-title{
+    font-size: 2.5rem;
+}
+.seats-person,
+.seats-date,
+.seats-time{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.seats-calendar h4{
+    color: #C9529A;
+}
+.seats-calendar p{
+    border: 1px solid #ECEBEB;
+    padding: 10px 75px 10px 8px;
+}
+.seats-calendar i{
+    border: 1px solid #ECEBEB;
+    padding: 13px;
+}
+.seats-calendar{
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+.seats-calendar button{
+    margin-left: -60px;
+}
+
+/* seats css */
+
+/* gravity-images css */
+
+.gravity-images{
+    display: grid;
+    grid-template-areas:"img1 img1 img4 img4" 
+                        "img2 img3 img4 img4";
+    gap: 10px;
+    margin-top: 1rem;
+}
+.gravity-images img{
+    width: 90%;
+}
+.gravity-img1{
+    grid-area: img1;
+    height: 400px;
+}
+.gravity-img2{
+    grid-area: img2;
+    height: 400px;
+}
+.gravity-img3{
+    grid-area: img3;
+    height: 400px;
+}
+.gravity-img4{
+    grid-area: img4;
+}
+.gravity-img1 img{
+    height: 400px;
+    width: 100%;
+}
+.gravity-img2 img{
+    height: 400px;
+    width: 100%;
+}
+.gravity-img3 img{
+    height: 400px;
+    width: 100%;
+}
+.gravity-img4 img{
+    height: 810px;
+    width: 100%;
+}
+/* gravity-images css */
+
+/* service css */
+
+.service{
+    height: 550px;
+    background-image: url('../assets/Picture3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.service-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.service-list{
+    gap: 3rem;
+}
+.service-list1{
+    flex-direction: column;
+    gap: 1rem;
+}
+.service-list2{
+    flex-direction: column;
+    gap: 1rem;
+}
+.service-subtitle{
+    font-family: "Qwigley", cursive;
+    color: #479A9F;
+    font-size: 24px;
+}
+.service-title{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.extra-para{
+    font-size: 13px;
+    font-weight: 700;
+    color: #C9529A;
+}
+.service-btn{
+    padding: 10px 18px;
+    color: #fff;
+    background-color: #C9529A;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+/* service css */
