@@ -375,6 +375,100 @@ body{
     border: none;
     border-radius: 8px;
     margin-top: 10px;
-
 }
 /* service css */
+
+/* testimonial css */
+
+.testimonial{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.testimonial-para{
+    font-family: "Qwigley", cursive;
+    color: #479A9F;
+    font-size: 25px;
+    text-align: center;
+}
+.testimonial-title{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.testimonial-cards{
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.testimonial-cards img{
+    width: 30%;
+}
+/* testimonial css */
+
+/* footer css */
+
+footer{
+    height: 300px;
+    background-image: url('../assets/Picture4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container{
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.5rem;
+    gap: 10rem;
+}
+.footer-content{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.footer-subtitle{
+    margin-left: 8rem;
+}
+.footer-inputs input{
+    padding: 16px 100px 15px 12px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ECEBEB;
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+}
+.footer-inputs button{
+    background-color: transparent;
+    padding: 15px 22px;
+    border: 1px solid #ECEBEB;
+    outline: none;
+    margin-left: -4px;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Oswald", sans-serif;
+}
+.footer-logos{
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.footer-logos p{
+    color: #ECEBEB;
+}
+.footer-left,
+.footer-middle,
+.footer-right{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-middle i{
+    padding: 10px;
+}
+/* footer css */
